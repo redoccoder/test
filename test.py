@@ -1,7 +1,8 @@
-def run_online_banking_flow():
+def online_banking_flow():
   
     # 온라인 뱅킹 및 결제 과정의 시퀀스를 시뮬레이션하는 함수입니다
     # (Enter)는 해당하는 정보를 입력했다는 가정 하에 넘어갑니다
+    # yes or no는 둘 중 하나 고르면 되고 확인 / 취소는 둘 중 하나 고르면 됩니다
   
     print("\n--- 온라인 뱅킹/결제 시퀀스 시뮬레이션 시작 ---")
 
@@ -143,4 +144,4 @@ def run_online_banking_flow():
 
 # 프로그램 시작 지점
 if __name__ == "__main__":
-    run_online_banking_flow()
+    online_banking_flow()
