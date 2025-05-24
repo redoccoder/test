@@ -1,1 +1,1 @@
-# software koseokku
+print("hello world")
