@@ -1,0 +1,8 @@
+N = int(input())
+
+if(N < 0):
+    print(N)
+    print("minus")
+
+if(N > 0):
+    print(N)
