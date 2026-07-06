@@ -1,18 +1,14 @@
 N = int(input())
 arr = list(map(float, input().split()))
 
-sum = 0
-avg = 0
-
-for i in arr:
-    sum += i
-    avg = sum / N
+sum = sum(arr)
+avg = sum / N
 
 print(f"{avg:.1f}")
 
-if avg >= 4:
+if avg >= 4.0:
     print("Perfect")
-elif avg >= 3:
+elif avg >= 3.0:
     print("Good")
 else:
     print("Poor")
