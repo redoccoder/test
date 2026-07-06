@@ -1,12 +1,12 @@
 N = int(input())
 
-sosu = False
+sosu = True
 
 for i in range(2, N):
     if N % i == 0:
-        sosu = True
+        sosu = False
 
-if sosu == True:
+if sosu == False:
     print("C")
 else:
     print("P")
