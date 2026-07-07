@@ -7,5 +7,4 @@ for i in arr:
     cnt_arr[i] += 1
 
 for j in range(1, 10):
-    cnt = cnt_arr[j]
-    print(cnt)
+    print(cnt_arr[j])
