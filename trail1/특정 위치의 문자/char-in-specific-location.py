@@ -7,6 +7,7 @@ idx = -1
 for i,char in enumerate(word):
     if char == a:
         idx = i
+        break
 
 if idx == -1:
     print("None")
