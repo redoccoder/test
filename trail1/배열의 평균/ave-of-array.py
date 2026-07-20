@@ -1,16 +1,16 @@
 lst = []
 
-for i in range(2):
+for _ in range(2):
     arr = list(map(int, input().split()))
     lst.append(arr)
     
-for row in lst:
-    avg1 = sum(row) / 4
+for i in lst:
+    avg1 = sum(i) / 4
     print(f"{avg1:.1f}", end=" ")
 print()
 
 for j in range(4):
-    avg2 = (lst[0][j] + lst[i][j]) / 2
+    avg2 = (lst[0][j] + lst[1][j]) / 2
     print(f"{avg2:.1f}", end=" ")
 print()
 
